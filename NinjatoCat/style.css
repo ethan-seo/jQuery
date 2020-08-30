@@ -1,0 +1,18 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Sans-serif;
+}
+
+#wrapper{
+    width: 180px;
+    height: 270px;
+    background-color: lightblue;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.cat{
+    display:none;
+}
