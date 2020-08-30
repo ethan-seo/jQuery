@@ -1,0 +1,241 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Sans-serif;
+}
+
+#wrapper{
+    width: 1100px;
+    height: 1190px;
+    background-color: #062134;
+    margin: 10px auto;
+    padding: 0px;
+}
+
+#wrapper h1{
+    font-weight: normal;
+    padding: 10px;
+    margin: 15px;
+    margin-left: 25px;
+    color: white;
+    display: inline-block;
+}
+
+#wrapper span{
+    color: #1A93DF;
+}
+
+#menu{
+    display: inline-block;
+    width: 630px;
+    font-size: 20px;
+    margin-left: 70px;
+    height: 45px;
+}
+
+#menu button{
+    /* color: white; */
+    background-color: inherit;
+    font-size: 0.9em;
+    margin-left: 55px;
+    border: none;
+}
+
+#home{
+    color: #30658B;
+}
+
+.menubutton{
+    color: white;
+}
+
+.menubutton2{
+    color: white;
+}
+
+#main_panel{
+    width: 1050px;
+    height: 1005px;
+    background-color: white;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+img.mainphoto{
+    width: 1020px;;
+    margin: 15px;
+}
+
+.icon{
+    display: inline-block;
+    width: 40px;
+    vertical-align: middle;
+    margin: 15px 5px 5px 10px;
+    padding: -1px;
+    /* background-image: radial-gradient(circle farthest-side,white,black); */
+    background-color:white;
+    border-radius: 50%;
+    /* border: 1px solid #004990; */
+}
+
+.sub_content{
+    width: 304px;
+    height: 255px;
+    padding: 10px;
+    display: inline-block;
+    background-color: #1468A8;
+    margin-left: 15px;
+    margin-right: 5px;
+    vertical-align: top;
+}
+
+.sub_content h2{
+    display: inline-block;
+    color: white;
+    margin-top: 12px;
+    vertical-align: middle;
+    font-weight: 600;
+}
+
+.sub_content p{
+    color: white;
+    font-size: 0.8em;
+    margin: 15px;
+    height: 110px;
+}
+
+.sub_content button{
+    text-align: center;
+    width: 170px;
+    height: 44px;
+    font-size: 1.15em;
+    padding: 6px 8px;
+    margin-top: auto;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #1991DC;
+    box-shadow: inset 0px 44px 0px -22px #3FA9EB;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.25);
+    text-decoration: none;
+}
+
+.bot_content{
+    width: 320px;
+    height: 250px;
+    display: inline-block;
+    background-color: inherit;
+    margin: 20px 9px 10px 15px;
+    vertical-align: top;
+}
+
+h3{
+    margin-right:0px;
+}
+
+.bot_content h3{
+    font-size: 1.3em;
+    font-weight: 600;
+    width: 300px;
+    margin: 5px 0px 15px 0px;
+}
+
+.bot_content img{
+    width: 324px;
+    margin-right: 0px;
+}
+
+.bot_content h4{
+    font-size: 1.31em;
+    font-weight: 600;
+    width: 300px;
+    margin: 5px 0px 15px 0px;
+    color: white;
+}
+
+.bot_content p{
+    margin-top: 11px;
+    margin-bottom: 20px;
+    font-size: 0.8em;
+}
+
+.bot_content a{
+    text-decoration: none;
+    color: #84A7C1;
+    vertical-align: bottom;
+}
+
+.speechbubble{
+    width:285px;
+    height:150px;
+}
+.bubble{
+    width: 285px;
+    height: 110px;
+    margin-bottom:20px;
+    background: #DAEDFF;
+    padding: 20px;
+    color: #222;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    display:block;
+}
+
+.bubble p{
+    margin: 10px 0 1px 0;
+    font-size: 1.1em;
+    font-style: italic;
+}
+
+.arrow {
+    content: "";
+    display:block;
+    color: #DAEDFF;
+    width: 0;
+    height:0;
+    margin-left: 40px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid #DAEDFF;
+}
+
+#testimonial{
+    margin-top:20px;
+}
+
+#footer{
+    width: 1050px;
+    height: 50px;
+    background-color: #DAEDFF;
+    margin: 0px auto;
+    margin-top: 2px;
+    padding: 10px;
+}
+
+
+#botmenu{
+    display: inline-block;
+    width: 630px;
+    font-size: 20px;
+    margin: 12px 0px 0px 320px;
+    height: 45px;
+}
+
+#botmenu button{
+    /* color: white; */
+    background-color: inherit;
+    font-size: 0.7em;
+    margin-left: 25px;
+    border: none;
+}
+
+#bothome{
+    color: #9DCAEE;
+}
+
+.botmenubutton{
+    color: #4D81A7;
+}
